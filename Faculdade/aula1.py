@@ -21,6 +21,7 @@ cargo = input("Informe o seu cargo: ")
 salario = float(input("Digite o seu salário: "))
 salarionovo = salario * 1.1
 reajuste = salarionovo - salario
+valorInss = salarionovo * 0.20
 print("="*30)
 print("        DADOS DO CONTRACHEQUE       ")
 print("-"*30)
@@ -28,7 +29,7 @@ print("Matricula......:", matricula)
 print("Funcionario....:",nome)
 print("Cargo..........:",cargo)
 print("Salario antes..:",round(salario,2))
-print("Salario depois.:",round(salarionovo,2))
+print("Salario depois.:",round(salarionovo - valorInss,2))
 print("Valor Reajustado:",round(reajuste,2))
 print("-"*30)
 print("     PAG.     ")
