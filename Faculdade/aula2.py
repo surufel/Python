@@ -28,10 +28,13 @@ def Saida():
 
 def MenuCalculadora():
     while True:
-        print("#"*60)
-        print("                CALCULADORA SIMPLES     ")
         print(" ")
-        print("     1 - SOMAR; 2 - SUBTRAIR; 3 - MULTIPLICAR; 4 - DIVIDIR")
+        print("#"*60)
+        print(" ")
+        print("CALCULADORA SIMPLES     ")
+        print(" ")
+        print("1 - SOMAR; 2 - SUBTRAIR; 3 - MULTIPLICAR; 4 - DIVIDIR")
+        print(" ")
         print("#"*60)
         global opMenu
         opMenu = input("Digite uma opção ou zero para sair: ")
